@@ -8,11 +8,11 @@ const avatarList = [
 ];
 
 const brandList = [
-  { image: "/images/home/brand/adobe.svg", darkImg: "/images/home/brand/adobe.svg", title: "Adobe Premiere Pro" },
-  { image: "/images/home/brand/figma.svg", darkImg: "/images/home/brand/figma.svg", title: "Canva" },
-  { image: "/images/home/brand/brand-icon-3.svg", darkImg: "/images/home/brand/brand-darkicon-3.svg", title: "Meta Ads" },
-  { image: "/images/home/brand/brand-icon-4.svg", darkImg: "/images/home/brand/brand-darkicon-4.svg", title: "Google Ads" },
-  { image: "/images/home/brand/brand-icon-5.svg", darkImg: "/images/home/brand/brand-darkicon-5.svg", title: "Camera Production" },
+  { image: "/images/Adobe_Premiere_Pro_CC_2026_icon.svg.png", darkImg: "/images/Adobe_Premiere_Pro_CC_2026_icon.svg.png", title: "Adobe Premiere Pro" },
+  { image: "/images/ccanva.jpg", darkImg: "/images/ccanva.jpg", title: "Canva" },
+  { image: "/images/meta-ads-manager-logo-hd.webp", darkImg: "/images/meta-ads-manager-logo-hd.webp", title: "Meta Ads Manager" },
+  { title: "Google Workspace" },
+  { image: "/images/camera-gear-chain-photography-logo-5ec56064-ed6b-402c-bc95-f1a3cacba668.png", darkImg: "/images/camera-gear-chain-photography-logo-5ec56064-ed6b-402c-bc95-f1a3cacba668.png", title: "Professional Camera Equipment" },
 ];
 
 const innovationList = [
@@ -30,6 +30,7 @@ const onlinePresenceList = [
     title: "Hiring Ad: 10k+ conversions",
     tag: ["Scripting", "Shoot", "Edit", "Performance Ad"],
     link: "https://drive.google.com/drive/folders/1fIrq5EtjpzRerq-iqMUk98BCX9ViYSuW",
+    format: "reel",
   },
   {
     image: "/WhatsApp Image 2026-06-24 at 4.55.23 PM (1).jpeg",
@@ -37,7 +38,7 @@ const onlinePresenceList = [
     title: "HR Hiring Campaign",
     tag: ["Concept", "Production", "Editing"],
     link: "https://drive.google.com/drive/folders/1fIrq5EtjpzRerq-iqMUk98BCX9ViYSuW",
-    wide: true,
+    format: "reel",
   },
   {
     image: "/images/WhatsApp Image 2026-06-24 at 4.57.36 PM.jpeg",
@@ -45,6 +46,7 @@ const onlinePresenceList = [
     title: "Retail Product Creative",
     tag: ["Product Video", "Ad Creative"],
     link: "https://www.instagram.com/reel/DVYk-N6EuYF/?igsh=MTMwcG5iajAxbXZ3dg==",
+    format: "reel",
   },
   {
     image: "/images/home/onlinePresence/online_img_3.jpg",
@@ -52,6 +54,7 @@ const onlinePresenceList = [
     title: "Jewellery Performance Creative",
     tag: ["E-commerce", "UGC Style", "Edit"],
     link: "https://www.instagram.com/reel/DWeK2VDzfTs/?igsh=MTU4eWNzbWJvNGM2Ng==",
+    format: "reel",
   },
   {
     image: "/images/home/onlinePresence/online_img_4.jpg",
@@ -60,6 +63,7 @@ const onlinePresenceList = [
     tag: ["Recruitment", "Campaign Variant"],
     link: "https://drive.google.com/drive/folders/1fIrq5EtjpzRerq-iqMUk98BCX9ViYSuW",
     wide: true,
+    format: "wide",
   },
 ];
 

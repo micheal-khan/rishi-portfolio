@@ -15,24 +15,14 @@ const footerData = {
       "Creative Production Lead crafting performance-driven ad creatives from script and shoot to edit and campaign delivery.",
     socialLinks: [
       {
-        icon: "/images/home/footerSocialIcon/twitter.svg",
-        dark_icon: "/images/home/footerSocialIcon/twitter_dark.svg",
-        link: "https://wa.me/918529990426",
-      },
-      {
         icon: "/images/home/footerSocialIcon/linkedin.svg",
         dark_icon: "/images/home/footerSocialIcon/linkedin_dark.svg",
-        link: "https://wa.me/918529990426",
-      },
-      {
-        icon: "/images/home/footerSocialIcon/dribble.svg",
-        dark_icon: "/images/home/footerSocialIcon/dribble_dark.svg",
-        link: "https://drive.google.com/drive/folders/1fIrq5EtjpzRerq-iqMUk98BCX9ViYSuW",
+        link: "https://www.linkedin.com/in/rishi-motwani-a546302ab?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
       },
       {
         icon: "/images/home/footerSocialIcon/instagram.svg",
         dark_icon: "/images/home/footerSocialIcon/instagram_dark.svg",
-        link: "https://www.instagram.com/reel/DVYk-N6EuYF/?igsh=MTMwcG5iajAxbXZ3dg==",
+        link: "https://www.instagram.com/rishii.mtwn?igsh=NmF1eG4xcm1kdTl4&utm_source=qr",
       },
     ],
   },

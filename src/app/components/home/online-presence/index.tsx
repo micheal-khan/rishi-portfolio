@@ -47,14 +47,14 @@ function OnlinePresence() {
                 />
               </h2>
             </div>
-            <div className='grid md:grid-cols-2 gap-x-6 gap-y-8 w-full'>
+            <div className='grid grid-flow-row-dense sm:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-8 w-full'>
               {onlinePresenceList?.map((items: any, index: number) => (
-                <motion.div
+                <motion.article
                   key={index}
-                  className={`group flex flex-col gap-6 cursor-pointer ${items.wide ? 'md:col-span-2' : ''}`}
+                  className={`group overflow-hidden rounded-3xl border border-dark_black/10 bg-white/70 p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-xl dark:border-white/10 dark:bg-white/5 ${items.wide ? 'sm:col-span-2 xl:col-span-4' : ''}`}
                   {...bottomAnimation(index)}
                 >
-                  <div className='relative rounded-2xl overflow-hidden bg-dark_black'>
+                  <div className={`relative flex items-center justify-center overflow-hidden rounded-2xl bg-black ${items.format === 'wide' ? 'aspect-video' : 'aspect-[9/16] max-h-[620px]'}`}>
                     {items.video ? (
                       <video
                         src={items.video}
@@ -62,7 +62,7 @@ function OnlinePresence() {
                         muted
                         playsInline
                         preload='metadata'
-                        className='block w-full h-auto rounded-2xl'
+                        className='h-full w-full object-contain'
                       />
                     ) : (
                       <Image
@@ -70,12 +70,12 @@ function OnlinePresence() {
                         alt={items.title}
                         width={625}
                         height={410}
-                        className='rounded-2xl'
+                        className='h-full w-full object-cover'
                       />
                     )}
                   </div>
 
-                  <div className='flex flex-col items-start gap-4'>
+                  <div className='flex flex-col items-start gap-4 px-1 pt-5'>
                     <div className='flex w-full items-start justify-between gap-4'>
                       <h3 className='group-hover:text-purple_blue text-2xl'>
                         {items.title}
@@ -105,7 +105,7 @@ function OnlinePresence() {
                       ))}
                     </div>
                   </div>
-                </motion.div>
+                </motion.article>
               ))}
             </div>
           </div>

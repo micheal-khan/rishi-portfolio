@@ -63,8 +63,8 @@ function HeroSection() {
                 <Link
                   href='/Rishi_Motwani_ATS_Resume.docx'
                   download
-                  className='group bg-purple_blue text-white font-medium flex flex-row justify-between items-center py-2 px-5 rounded-full max-w-64 w-full md:py-3 border border-purple_blue transition-all duration-200 ease-in-out hover:bg-transparent hover:text-purple_blue'>
-                  <span className='flex text-start transform transition-transform duration-200 ease-in-out group-hover:translate-x-28'>
+                  className='group bg-purple_blue text-white font-medium flex flex-row justify-between items-center py-2 pl-6 pr-2 rounded-full max-w-64 w-full md:py-3 border border-purple_blue transition-all duration-200 ease-in-out hover:bg-transparent hover:text-purple_blue'>
+                  <span className='flex text-start'>
                     Download Resume
                   </span>
                   <svg
@@ -73,7 +73,7 @@ function HeroSection() {
                     viewBox='0 0 40 40'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
-                    className='transform transition-transform duration-200 ease-in-out group-hover:-translate-x-44 group-hover:rotate-45'>
+                    className='shrink-0 transition-transform duration-200 ease-in-out group-hover:rotate-45'>
                     <rect
                       width='40'
                       height='40'
@@ -105,10 +105,10 @@ function HeroSection() {
                         <Image
                           src={items.image}
                           alt='Image'
-                          width={44}
-                          height={44}
+                          width={56}
+                          height={56}
                           quality={100}
-                          className='rounded-full border-2 border-white'
+                          className='h-14 w-14 rounded-full border-2 border-white object-cover'
                         />
                       </li>
                     ))}
